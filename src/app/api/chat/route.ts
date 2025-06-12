@@ -21,7 +21,7 @@ export async function POST(req: Request) {
         baseURL: 'http://localhost:11434/api',
     })
  
-    const model = provider('deepseek-r1:7b')
+    const model = provider('deepseek-r1:14b')
  
     const lastMessage = messages[messages.length - 1].content
  
